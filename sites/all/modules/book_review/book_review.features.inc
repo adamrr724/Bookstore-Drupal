@@ -25,8 +25,8 @@ function book_review_views_api($module = NULL, $api = NULL) {
  */
 function book_review_node_info() {
   $items = array(
-    'book_review' => array(
-      'name' => t('Book Review'),
+    'book_reviews' => array(
+      'name' => t('Book Reviews'),
       'base' => 'node_content',
       'description' => '',
       'has_title' => '1',
